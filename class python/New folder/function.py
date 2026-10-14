@@ -97,7 +97,7 @@
 #         withdrawal=int(input("enter again"))
 #         if av_balance>withdrawal:
 #             print(withdrawal)
-# user=input("Enter username")     #### bug in if
+# user=input("Enter username")     
 
 # length=len(user)
 # if " " in user:
@@ -111,7 +111,73 @@
 #             print("Invalid")
 #         if length>=5 and user!="":
 #             print(user)
-#             break
+#   
+#          break
+# num=int(input("Enter a number "))
+# while num>0:
+#   if num%3==0 and num%5==0:
+#     print(num)
+#     break
+#   else:
+#     num=int(input("Enter a number "))
+
+# i=1
+# secret_pin=2468
+# pin=int(input("Enter Number "))
+# while i<=2:
+#     if pin==secret_pin:
+#         print("Login")
+#         break
+#     else:
+#         pin=int(input("Enter Number"))
+#         i+=1
+# print("Access Denied")
+
+
+# num=int(input("Enter any number between 10 to 50 "))
+# while num>0:
+#     if 10<num<50:
+#      if num%2==0 :
+#         print(f"{num} is even")
+#         num=int(input("Enter any number between 10 to 50 "))
+    
+#      else:
+#         print(f"{num} is odd")
+#         num=int(input("Enter any number between 10 to 50 "))
+#     else:
+#        print("Enter number between 10 to 50")
+# marks = int(input("Enter marks: "))
+
+# while 0 < marks < 100:
+#     if marks > 75:
+#         print("Distinction")
+#     elif 60 <= marks <= 75:
+#         print("First Class")
+#     elif 35 <= marks < 60:
+#         print("Pass")
+#     else:  
+#         print("Fail")
+        
+    
+#     marks = int(input("Enter marks (or enter 0/100 to exit): "))
+
+# print("Program ended.")
+
+
+        
+
+
+
+
+
+ 
+
+
+
+
+
+
+    
 
 
 
