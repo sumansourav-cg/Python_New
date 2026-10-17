@@ -162,6 +162,12 @@
 #     marks = int(input("Enter marks (or enter 0/100 to exit): "))
 
 # print("Program ended.")
+username=int(input("Enter Username ")).strip()
+length=len(username)
+while length>8:
+    if " " in username:
+        
+
 
 
         
