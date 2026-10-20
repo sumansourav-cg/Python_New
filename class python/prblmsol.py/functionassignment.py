@@ -205,52 +205,66 @@
 
 
 
-# print_opening()
+# # print_opening()
 
-# print("Coffee \t\t $50")
-# print("Sandwich \t $80")
-# print("Total \t\t $130")
+# # print("Coffee \t\t $50")
+# # print("Sandwich \t $80")
+# # print("Total \t\t $130")
 
+# # print_closing()
+
+# \
+
+# # Q-19
+
+# # def print_box():
+# #     print"*********")
+# #     print("*       *")
+# #     print("*********")
+
+# # print_box()
+# # print("---------")  
+# # print_box()
+
+
+
+# # Q-20
+
+# def print_title():
+#     print("========================")
+#     print("  STUDENT PORTAL APP")
+#     print("========================")
+
+# def print_menu():
+#     print("Menu Options:")
+#     print("1. View Attendance")
+#     print("2. Check Grades")
+#     print("3. Logout")
+#     print("------------------------")
+
+# def print_closing():
+#     print("Logging out...")
+#     print("Have a great day! Goodbye.")
+#     print("========================")
+
+# print_title()
+# print()  
+# print_menu()
+# print()  
+# print("(User selects option 3)")
+# print()  
 # print_closing()
+# def analyze_number(number):
+#     if number%2==0:
+#         even="Even"
+#     elif number>0:
+#         string=str(number)
+#         length=len(string)
+#         a=length
+        
+#     elif number<0:
+#         number = number*-1
+#         absolute=number
+#     return even,absolute
+# print(analyze_number(22))
 
-# [--------------------------------------------------------]
-
-# Q-19
-
-# def print_box():
-#     print("*********")
-#     print("*       *")
-#     print("*********")
-
-# print_box()
-# print("---------")  
-# print_box()
-
-# [--------------------------------------------------------]
-
-# Q-20
-
-def print_title():
-    print("========================")
-    print("  STUDENT PORTAL APP")
-    print("========================")
-
-def print_menu():
-    print("Menu Options:")
-    print("1. View Attendance")
-    print("2. Check Grades")
-    print("3. Logout")
-    print("------------------------")
-
-def print_closing():
-    print("Logging out...")
-    print("Have a great day! Goodbye.")
-    print("========================")
-
-print_title()
-print()  
-print_menu()
-print()  
-print("(User selects option 3)")
-print()  
-print_closing()
