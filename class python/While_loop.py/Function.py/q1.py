@@ -191,4 +191,15 @@
 # def order_summary(items,quantity=1,price=100,delivery_fee=40):
 #     return quantity*price+delivery_fee
 # print(order_summary(delivery_fee=30,price=7,quantity=4,items=3))
+# def divide(c,d=44,/,*,a,b=11):
+#     return c+d,a%b
+# print(divide(22,33,a=11))
+
+# def add(*args):
+#     return args
+# print(add(20,30,40))   #only positional argrument are accpeted in *args 
+
+   
+
+    
 
